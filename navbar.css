@@ -1,0 +1,44 @@
+nav{
+	background-color:rgb(245,245,245);
+	padding:15px;
+	font-size:30px;
+	position: relative;
+  bottom:10px;
+  padding-left :100px;
+}
+.nav ul{
+	list-style-type:none;
+	display:inline;
+	padding-left :100px;
+	font-weight: bold;
+	
+}
+.nav li{
+text-decoration:none;
+		display:inline;
+		padding:30px;
+}
+.active 
+{
+	color:red;
+}
+.fa.fa-bars
+{color:red;
+padding:10px;
+
+}
+.nav.toggler
+{display:none;
+		float:right;
+		margin-right:50px;
+		position:relative;
+}
+@media screen and (max-width: 900px)
+{.nav ul{
+	display:none;
+}
+.nav.toggler
+{
+	display:block;
+}
+}
